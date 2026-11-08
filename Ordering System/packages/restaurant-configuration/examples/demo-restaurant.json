@@ -1,0 +1,104 @@
+{
+  "restaurant": {
+    "slug": "sample-kitchen",
+    "name": "Sample Kitchen",
+    "logoUrl": null,
+    "brandColors": {
+      "primary": "#a44e20",
+      "secondary": "#f0e5d7"
+    },
+    "contact": {
+      "phone": "+1-555-0100",
+      "email": "hello@example.com",
+      "address": "100 Example Street"
+    },
+    "currency": "USD"
+  },
+  "settings": {
+    "deliveryFeeCents": 250,
+    "minimumOrderCents": 1000,
+    "businessHours": {
+      "monday": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "tuesday": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "11:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "sunday": null
+    },
+    "paymentMethods": [
+      "cash_on_delivery"
+    ]
+  },
+  "categories": [
+    {
+      "id": "sandwiches",
+      "name": "Sandwiches",
+      "description": "Made to order."
+    },
+    {
+      "id": "sides",
+      "name": "Sides",
+      "description": "A little extra for your meal."
+    }
+  ],
+  "products": [
+    {
+      "id": "garden-sandwich",
+      "categoryId": "sandwiches",
+      "name": "Garden Sandwich",
+      "description": "Grilled vegetables, greens, and house sauce.",
+      "imageUrl": null,
+      "priceCents": 850,
+      "available": true,
+      "options": [
+        {
+          "id": "bread-choice",
+          "name": "Bread",
+          "selectionType": "single",
+          "required": true,
+          "choices": [
+            {
+              "id": "sourdough",
+              "name": "Sourdough",
+              "priceDeltaCents": 0
+            },
+            {
+              "id": "whole-grain",
+              "name": "Whole grain",
+              "priceDeltaCents": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crispy-potatoes",
+      "categoryId": "sides",
+      "name": "Crispy Potatoes",
+      "description": "Seasoned potatoes with a choice of dip.",
+      "imageUrl": null,
+      "priceCents": 425,
+      "available": true,
+      "options": []
+    }
+  ]
+}

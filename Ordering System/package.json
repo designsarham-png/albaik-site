@@ -1,0 +1,23 @@
+{
+  "name": "master-restaurant-ordering-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=@restaurant/api",
+    "dev:admin": "npm run dev --workspace=@restaurant/admin",
+    "dev:storefront": "npm run dev --workspace=@restaurant/demo-storefront",
+    "configure:demo": "npm run configure --workspace=@restaurant/api -- ../../packages/restaurant-configuration/examples/demo-restaurant.json",
+    "configure:albaik": "npm run configure --workspace=@restaurant/api -- ../../packages/restaurant-configuration/examples/albaik-restaurant.json",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true,
+    "esbuild@0.28.2": true
+  }
+}

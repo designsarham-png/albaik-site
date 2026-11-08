@@ -1,0 +1,150 @@
+{
+  "restaurant": {
+    "slug": "sample-kitchen",
+    "name": "Al-Baik",
+    "logoUrl": null,
+    "brandColors": {
+      "primary": "#e4121c",
+      "secondary": "#fdb913"
+    },
+    "contact": {
+      "phone": "+00 000 0000000",
+      "email": "hello@example.com",
+      "address": "Your address here"
+    },
+    "currency": "PKR"
+  },
+  "settings": {
+    "deliveryFeeCents": 0,
+    "minimumOrderCents": 0,
+    "businessHours": {
+      "monday": { "open": "00:00", "close": "23:59" },
+      "tuesday": { "open": "00:00", "close": "23:59" },
+      "wednesday": { "open": "00:00", "close": "23:59" },
+      "thursday": { "open": "00:00", "close": "23:59" },
+      "friday": { "open": "00:00", "close": "23:59" },
+      "saturday": { "open": "00:00", "close": "23:59" },
+      "sunday": { "open": "00:00", "close": "23:59" }
+    },
+    "paymentMethods": ["cash_on_delivery"]
+  },
+  "categories": [
+    { "id": "pizza", "name": "Pizza" },
+    { "id": "burgers", "name": "Burgers" },
+    { "id": "loaded-fries", "name": "Loaded Fries" },
+    { "id": "fried-chicken", "name": "Fried Chicken" },
+    { "id": "drinks", "name": "Drinks" }
+  ],
+  "products": [
+    {
+      "id": "chicken-tikka-pizza",
+      "categoryId": "pizza",
+      "name": "Chicken Tikka Pizza",
+      "description": "Smoky tikka-spiced chicken, onions and peppers under a blanket of stretchy mozzarella.",
+      "imageUrl": "/assets/products/chicken-tikka-pizza.png",
+      "priceCents": 0,
+      "available": false,
+      "options": []
+    },
+    {
+      "id": "fajita-pizza",
+      "categoryId": "pizza",
+      "name": "Fajita Pizza",
+      "description": "Fajita-style chicken with capsicum, onion and olives on a golden, cheesy crust.",
+      "imageUrl": "/assets/products/fajita-pizza.png",
+      "priceCents": 0,
+      "available": false,
+      "options": []
+    },
+    {
+      "id": "pepperoni-pizza",
+      "categoryId": "pizza",
+      "name": "Pepperoni Pizza",
+      "description": "Crisp-edged pepperoni and bubbling mozzarella on a rich tomato base.",
+      "imageUrl": "/assets/products/pepperoni-pizza.png",
+      "priceCents": 0,
+      "available": false,
+      "options": []
+    },
+    {
+      "id": "zinger-burger",
+      "categoryId": "burgers",
+      "name": "Zinger Burger",
+      "description": "Crunchy spiced chicken fillet, crisp lettuce and creamy mayo in a toasted sesame bun.",
+      "imageUrl": "/assets/products/zinger-burger.png",
+      "priceCents": 0,
+      "available": false,
+      "options": []
+    },
+    {
+      "id": "double-cheese-burger",
+      "categoryId": "burgers",
+      "name": "Double Cheese Burger",
+      "description": "Two patties, two slices of melted cheese and a toasted bun.",
+      "imageUrl": "/assets/products/double-cheese-burger.png",
+      "priceCents": 0,
+      "available": false,
+      "options": []
+    },
+    {
+      "id": "classic-loaded-fries",
+      "categoryId": "loaded-fries",
+      "name": "Classic Loaded Fries",
+      "description": "Crispy fries topped with creamy sauce, herbs and a sprinkle of seasoning.",
+      "imageUrl": "/assets/products/classic-loaded-fries.png",
+      "priceCents": 0,
+      "available": false,
+      "options": []
+    },
+    {
+      "id": "cheesy-loaded-fries",
+      "categoryId": "loaded-fries",
+      "name": "Cheesy Loaded Fries",
+      "description": "Hot fries smothered in molten cheese sauce for the ultimate cheese pull.",
+      "imageUrl": "/assets/products/cheesy-loaded-fries.png",
+      "priceCents": 0,
+      "available": false,
+      "options": []
+    },
+    {
+      "id": "crispy-fried-chicken",
+      "categoryId": "fried-chicken",
+      "name": "Crispy Fried Chicken",
+      "description": "Golden, crunchy pieces, juicy inside and crisp outside.",
+      "imageUrl": "/assets/products/crispy-fried-chicken.png",
+      "priceCents": 0,
+      "available": false,
+      "options": []
+    },
+    {
+      "id": "chicken-nuggets",
+      "categoryId": "fried-chicken",
+      "name": "Chicken Nuggets",
+      "description": "Bite-sized crispy nuggets with a soft, juicy centre.",
+      "imageUrl": "/assets/products/chicken-nuggets.png",
+      "priceCents": 0,
+      "available": false,
+      "options": []
+    },
+    {
+      "id": "pepsi",
+      "categoryId": "drinks",
+      "name": "Pepsi",
+      "description": "Ice-cold, fizzy and refreshing, the classic partner for any meal.",
+      "imageUrl": "/assets/products/pepsi.png",
+      "priceCents": 0,
+      "available": false,
+      "options": []
+    },
+    {
+      "id": "7up",
+      "categoryId": "drinks",
+      "name": "7UP",
+      "description": "Crisp lemon-lime sparkle, served chilled.",
+      "imageUrl": "/assets/products/7up.png",
+      "priceCents": 0,
+      "available": false,
+      "options": []
+    }
+  ]
+}
